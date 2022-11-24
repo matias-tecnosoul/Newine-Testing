@@ -1,6 +1,6 @@
 {
-  "name": "ar.com.tecnosoul.newinetesting",
-  "displayName": "NewineTesting",
+  "name": "ar.com.newine.newinetesting",
+  "displayName": "Newine-Testing",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
