@@ -11,35 +11,39 @@ function onDeviceReady() {
     //
    // document.getElementById("getPosition").addEventListener("click", getPosition);
    document.getElementById("scanButton").addEventListener("click", scan);
-   document.getElementById("stopButton").addEventListener("click", stopscan);
+      document.getElementById("stopButton").addEventListener("click", stopscan);
 
- }
+   //alert('scanbegin');
+       window.QRScanner.scan(displayContents);
+
+
+        // Make the webview transparent so the video preview is visible behind it.
+      window.QRScanner.show();
+        // Be sure to make any opaque HTML elements transparent here to avoid
+        // covering the video.
+
+}
 
 
 function scan() {
 //QRScanner.scan(displayContents);
 //window.QRScanner.show();
 //alert(2 + 6);
-  //   alert('scanbegin');
-       alert ('adentroScan ');
+     alert('scanbegin');
+     QRScanner.scan(displayContents);
 
-     window.QRScanner.scan(displayContents);
 
      // Make the webview transparent so the video preview is visible behind it.
-     window.QRScanner.show();
+     QRScanner.show();
      // Be sure to make any opaque HTML elements transparent here to avoid
      // covering the video.
 
 
 }
 function stopscan() {
-         alert ('adentroStopScan ');
-
-    window.QRScanner.cancelScan(function(status){
+QRScanner.cancelScan(function(status){
   console.log(status);
-    }
-
-);
+});
 
 }
 
