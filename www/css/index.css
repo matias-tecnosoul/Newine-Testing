@@ -1,0 +1,66 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    background-color: black;
+    font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
+    font-size:12px;
+    width:100%;
+    height:100vh;
+    margin:0px;
+    padding:0px;
+    /* Padding to avoid the "unsafe" areas behind notches in the screen */
+ /*   padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);*/
+
+}
+
+/* Portrait layout (default) */
+.app {
+  /*  background:url(../img/logoBAK.png) no-repeat center top; */
+/*width: 100%;*/
+    /*height: 100%;*/
+padding:2rem;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#header {
+/*height: 15vh;*/
+  /*width:225px;*/
+  /*padding: 0.9rem;*/
+}
+#logo-header{
+      max-width:25%;
+      height:auto;
+}
+h1,h2,h3,h4,h5,p {
+    color: aliceblue;
+  }
+h1 {
+    font-size:1.6rem;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:10px;
+}
+h2 {
+    font-size:1.1rem;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:10px;
+
+}
+
+

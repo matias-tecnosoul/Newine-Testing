@@ -3,27 +3,40 @@
     <meta charset="utf-8">
 
     <meta name="color-scheme" content="light dark">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+
     <link rel="stylesheet" href="css/index.css">
     <title>Newine Dispensers</title>
 </head>
 <body>
+
 <div class="app">
-    <h1>Pruebas QR</h1>
-    <br /><br />
-    <br /><br />
+    <div id="header">
+        <img id="logo-header" class="center" src="img/logo.png" alt="s" title="s">
+        <h1>Pruebas QR</h1>
+    </div>
+
+    <br />
+    <h2>Solicitar permisos (opcional)</h2>
     <button id="prepareButton" class="btn" > Preparar</button>
     <br /><br />
+    <h2>Escanear QR</h2>
     <button id="scanButton" class="btn" > Escanear</button>
-    <br /><br /><br />
+    <br /><br />
+    <h2>Mostrar cámara</h2>
     <button id="mostrarButton" class="btn" > Mostrar</button>
     <br /><br />
-    <button id="hideButton" class="btn" > Hide</button>
+    <h2>Ocultar cámara</h2>
+    <button id="hideButton" class="btn" > Ocultar</button>
     <br /><br />
-    <button id="stopButton" class="btn" > stop Escanear</button>
-    <br /><br /><br />    <br /><br /><br />
+    <h2>Detener escaneo</h2>
+    <button id="stopButton" class="btn" > Detener Escaneo</button>
+  <!--  <br /><br /><br />    <br /><br /><br />
 
     <button id="menuScanButtonTest" class="btn" > menuScanButtonTest</button>
-
+-->
     <!--       <iframe id="iframe" allow="geolocation https://newinetest.com.ar/mobile" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"
                    src="https://newinetest.com.ar/mobile">
            </iframe>

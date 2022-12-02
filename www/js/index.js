@@ -69,7 +69,7 @@ function hide() {
      QRScanner.hide(function(status){
        console.log(status);
      });
-     
+
      // Be sure to make any opaque HTML elements transparent here to avoid
      // covering the video.
 }
@@ -93,7 +93,7 @@ function displayContents(err, contents){
   } else {
   console.log(status);
     // The scan completed, display the contents of the QR code:
-    alert('The QR Code contains: ' + contents);
+    alert('Contenido del QR: ' + contents);
   }
 }
 
