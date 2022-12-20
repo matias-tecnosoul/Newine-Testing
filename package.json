@@ -15,6 +15,7 @@
   "devDependencies": {
     "cordova-android": "^11.0.0",
     "cordova-browser": "^6.0.0",
+    "cordova-plugin-add-swift-support": "^2.0.2",
     "cordova-plugin-inappbrowser": "^5.0.0",
     "cordova-plugin-qrscanner-11": "^3.0.4"
   },
